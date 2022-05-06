@@ -28,7 +28,6 @@ dist-ssr
 /.firebase/
 
 /pnpm-lock.yaml
-/public/arc-sw.js
 /public/build/bundle.css
 /public/build/bundle.js
 /public/build/bundle.js.map
