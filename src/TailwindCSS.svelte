@@ -8,14 +8,6 @@
     padding : 0;
   }
 
-  .card {
-    @apply max-w-sm rounded rounded-lg overflow-hidden shadow-lg;
-  }
-
-  .btn {
-    @apply rounded px-4 py-2 border;
-  }
-
   .wrapper {
     @apply min-h-screen flex flex-col;
 
