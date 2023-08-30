@@ -1,4 +1,3 @@
-import postcss from './postcss.config.js';
 import {svelte} from '@sveltejs/vite-plugin-svelte';
 import {defineConfig} from 'vite';
 
@@ -6,7 +5,4 @@ import {defineConfig} from 'vite';
 export default defineConfig({
     publicDir: './public',
     plugins: [svelte()],
-    css: {
-        postcss,
-    },
 });
